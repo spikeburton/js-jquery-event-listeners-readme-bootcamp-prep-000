@@ -11,7 +11,9 @@ function frameIt() {
   })
 }
 
-function pressIt() {}
+function pressIt() {
+  $('input:first-child').
+}
 
 function submitIt() {}
 
