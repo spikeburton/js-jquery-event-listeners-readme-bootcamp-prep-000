@@ -12,7 +12,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input:first-child').on('keydown', function() {
+  $('input:first-child').on('keydown', function(key) {
     if(key.which == 'g') {
       alert('G was pressed')
     }
