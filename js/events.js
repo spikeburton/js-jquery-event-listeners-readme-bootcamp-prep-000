@@ -13,7 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $('input:first-child').on('keydown', function() {
-    
+    if(key.which == 'g')
   })
 }
 
